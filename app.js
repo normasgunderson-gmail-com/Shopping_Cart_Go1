@@ -76,7 +76,6 @@ function displayButtons() {
 
   // console.table(categories);
 
-
   // //!Solution to sort by categories using REDUCE  
   // const categories = products.reduce(
   //   (acc, product) =>
@@ -110,7 +109,6 @@ function displayButtons() {
     console.table(filteredProducts);
 
     displayProducts(filteredProducts);
-
   });
 }
 document.getElementById('btn-filter').addEventListener('click', () => {
@@ -153,5 +151,3 @@ window.addEventListener("DOMContentLoaded", () => {
   displayProducts(products);
   displayButtons();
 });
-
-
